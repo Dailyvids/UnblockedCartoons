@@ -1,0 +1,50 @@
+<module>
+    <content><![CDATA[
+        <html>
+        <head>
+            <script src="https://s0.2mdn.net/instream/video/client.js" async type="text/javascript"></script>
+            <script async src="https://www.google-analytics.com/analytics.js"></script>
+            <script type="text/javascript" id="analytics" async src="https://cdn.jsdelivr.net/gh/st39/sdk@main/ga.js"></script>
+            <script type="text/javascript" async src="//imasdk.googleapis.com/js/sdkloader/ima3_debug.js"></script>
+            <script id="gamemonetize-sdk" type="text/javascript" async src="https://cdn.jsdelivr.net/gh/st39/sdk@main/sdk.js"></script>
+            <script src="//www.google.com/jsapi"></script>
+            <script>window.parent.maeExportApis_();</script>
+            <meta charset="utf-8">
+            <meta name="theme-color" content="#2d3331">
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MartinTintin3/melvin-games@e4de505d194355c344977981cdf3b2cfe5075c52/games/paper.io-2/css/style3.css" type="text/css">
+            <style>
+                #right_side { position: absolute; top: 0; bottom: 0; right: 0; width: 220px; height: 200px; z-index: 3; padding-top: 12px; padding-right: 12px; text-align: right;}
+                #button { display:none; }
+                .imgb_vis {
+                    animation: imgb-animation 7s linear;
+                }
+                @keyframes imgb-animation {
+                    10% { transform: translateX(0); }
+                    20% { transform: translateX(100px); }
+                    90% { transform: translateX(100px); }
+                    100% { transform: translateX(0); }
+                }
+            </style>
+        </head>
+        <body>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/bobydob/JSEngine@dcbe63e923bb7f943bf4e1feceb996ddff033f48/build/ppo2/app-new-gm.js"></script>
+            <div id="game">
+                <canvas class="fadein" id="view" width="1365" height="944"></canvas>
+                <div id="ui_overlay"></div>
+                <div id="ui" class="">
+                    <div id="left_side"></div>
+                    <div class="uibox">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/MartinTintin3/melvin-games@e4de505d194355c344977981cdf3b2cfe5075c52/games/paper.io-2/images/logo.png"></div>
+                        <div class="tips"><div class="tip">Compete against other players</div></div>
+                        <form class="play"><input type="text" id="nick" name="nick" autocomplete="off" placeholder="Your name" maxlength="12"><button id="play" name="play" class="yellow">PLAY</button></form>
+                        <div id="adbanner"></div>
+                    </div>
+                    <div id="right_side"></div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/gh/st39/sdk@main/api.js"></script>
+        </body>
+        </html>
+    ]]></content>
+</module>
